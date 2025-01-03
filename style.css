@@ -130,3 +130,61 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* sign-up css */
+
+.signup
+{
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#signup-form
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  box-shadow: 15px 10px 20px 10px gray;
+  color: black;
+  margin-top: 5%;
+  background: url(/media/images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+#signup-form h1 
+{
+  margin-bottom: 20px;
+}
+.sulabel
+{
+  display:flex;
+  align-items: flex-start;
+  text-transform: uppercase;
+
+}
+
+#signup-form input
+{
+  height: 30px;
+  width: 80%;
+  border: 2px solid gray;
+  border-radius: 10px;
+
+}
