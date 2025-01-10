@@ -1,7 +1,15 @@
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
 body
 {
     background-color: black;
+    height: 100%;
 }
 .main-page
 {
@@ -14,15 +22,15 @@ body
 {
     background-color: rgb(119, 112, 112);
     width: 8%;
-    height: 130vh;
 }
 
 .content-side
 {
     background-color: black;
     width: 92%;
+    min-height: 100vh;
     color: beige;
-    height: 130vh;
+  
     
     
 }
@@ -83,3 +91,110 @@ body
 
 
 
+
+
+/* Explore page css */
+
+.ser-music
+{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.ser-box
+{
+    width: 500px;
+}
+
+.ser-music input
+{
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: azure;
+    border: 2px solid ;
+    border-color: red green blue yellow;
+    text-align: center;
+  
+}
+
+
+#find
+{
+    width: 40px;
+    height: 40px;
+  margin-left: 10px;
+   background-image:url(https://img.icons8.com/?size=100&id=71638&format=png&color=000000);
+   background-size:cover;
+   background-color:transparent;
+   background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
+/* profile page css */
+
+.profile
+{
+    
+    margin-top: 30px;
+    display: flex;
+    
+    
+}
+
+#avtar
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+
+}
+
+
+.edit-profile button
+{
+    padding-top: 0%;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    background: transparent;
+    color: azure;
+    border: 0.2px solid skyblue;
+    border-radius: 50px;
+   margin-left: 300px;
+   margin-top: 20px;
+}
+
+
+
+
+.favlist
+{
+    height: 50px;
+    display: flex;
+
+}
+
+.favlist img 
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  text-align:initial;
+    border-radius: 10px;
+
+}
